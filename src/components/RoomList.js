@@ -5,9 +5,11 @@ export default function RoomList({rooms}) {
 if(rooms.length === 0){
     return (
         <div className="emptySearch">
-            <h3>unfortunately no rooms matched your search parameters</h3>
+            <center><h3>No cars available for your search</h3></center>
         </div>
     )
+
+
 }
 return (
 <section className="roomslist">

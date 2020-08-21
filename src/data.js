@@ -21,25 +21,25 @@ export default [
       id: "1"
     },
     fields: {
-      name: "single economy",
-      slug: "single-economy",
-      type: "single",
-      price: 100,
-      size: 200,
-      capacity: 1,
+      name: "Mercedes Silver Ligtning",
+      slug: "SilverLigtning",
+      type: "luxury fast",
+      price: 10000,
+      size: 830,
+      capacity: 2,
       pets: false,
       breakfast: false,
+      kits: true,
       featured: false,
       description:
         "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
+        "Very Polished Design",
+        "Futuristic visual",
+        "Auto Lights",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds"
+        "Comfortable seats"
       ],
       images: [
         {
@@ -78,25 +78,25 @@ export default [
       id: "2"
     },
     fields: {
-      name: "single basic",
-      slug: "single-basic",
-      type: "single",
-      price: 150,
-      size: 250,
-      capacity: 1,
+      name: "lamborghini terzo (2020)",
+      slug: "Terzo",
+      type: "luxury fast",
+      price: 15000,
+      size: 850,
+      capacity: 2,
       pets: false,
       breakfast: false,
+      kits: false,
       featured: false,
       description:
         "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
+        "Futuristic looks and improvements",
+        "Very fast MPH",
+        "Full Round security system",
+        "Complimentary doors",
         "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "Include both warranty and access control",
       ],
       images: [
         {
@@ -135,25 +135,25 @@ export default [
       id: "3"
     },
     fields: {
-      name: "single standard",
-      slug: "single-standard",
-      type: "single",
-      price: 250,
-      size: 300,
-      capacity: 1,
+      name: "Nissan GTR (limited edition)",
+      slug: "GTR",
+      type: "normal fast",
+      price: 25000,
+      size: 500,
+      capacity: 2,
       pets: true,
       breakfast: false,
+      kits: false,
       featured: false,
       description:
         "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "Good Price to Performance",
+        "Fat Car with Fair Price",
+        "Limited Edition",
+        "Auto Tuning System",
+        "V8 Engine",
+        "Includes Digital Soundbar System"
       ],
       images: [
         {
@@ -192,25 +192,25 @@ export default [
       id: "4"
     },
     fields: {
-      name: "single deluxe",
-      slug: "single-deluxe",
-      type: "single",
-      price: 300,
-      size: 400,
-      capacity: 1,
+      name: "BMW M-8",
+      slug: "M8",
+      type: "normal fast",
+      price: 30000,
+      size: 600,
+      capacity: 2,
       pets: true,
       breakfast: true,
+      kits: true,
       featured: false,
       description:
         "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
+        "Price to performance",
+        "M8 being the latest model",
+        "Fine Engine and Looks",
         "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "V10 Engine contains",
+        "Rare Sport Car"
       ],
       images: [
         {
@@ -249,25 +249,25 @@ export default [
       id: "5"
     },
     fields: {
-      name: "double economy",
-      slug: "double-economy",
-      type: "double",
-      price: 200,
-      size: 300,
+      name: "lamborghini LP 700",
+      slug: "LP700",
+      type: "racing",
+      price: 20000,
+      size: 700,
       capacity: 2,
       pets: false,
       breakfast: false,
+      kits: true,
       featured: false,
       description:
         "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
+        "Fine looks and structure",
+        "Textures of a good architecture",
+        "Good Racing Car",
         "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "fine interior design",
+        "Comfortable seats"
       ],
       images: [
         {
@@ -306,19 +306,20 @@ export default [
       id: "6"
     },
     fields: {
-      name: "double basic",
-      slug: "double-basic",
-      type: "double",
-      price: 250,
-      size: 350,
+      name: "Aston martin Vantage",
+      slug: "Vantage",
+      type: "luxury fast",
+      price: 25000,
+      size: 550,
       capacity: 2,
       pets: false,
       breakfast: false,
+      kits: false,
       featured: false,
       description:
         "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
       extras: [
-        "Plush pillows and breathable bed linens",
+        "Good price to performance",
         "Soft, oversized bath towels",
         "Full-sized, pH-balanced toiletries",
         "Complimentary refreshments",
@@ -363,25 +364,25 @@ export default [
       id: "7"
     },
     fields: {
-      name: "double standard",
-      slug: "double-standard",
-      type: "double",
-      price: 300,
-      size: 400,
+      name: "Jaguar F type",
+      slug: "FType",
+      type: "normal fast",
+      price: 30000,
+      size: 900,
       capacity: 2,
       pets: true,
       breakfast: false,
+      kits: true,
       featured: false,
       description:
         "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
+        "Normal fast with fine price",
+        "With 900 hp of a fast car",
+        "Include greate repair kits",
+        "Warranty for accessories",
         "Internet",
-        "Comfortable beds"
+        "Comfortable seats and interior"
       ],
       images: [
         {
@@ -420,25 +421,26 @@ export default [
       id: "8"
     },
     fields: {
-      name: "double deluxe",
-      slug: "double-deluxe",
-      type: "double",
-      price: 400,
-      size: 500,
+      name: "lamborghini veneo",
+      slug: "veneo",
+      type: "racing",
+      price: 40000,
+      size: 1000,
       capacity: 2,
       pets: true,
       breakfast: true,
+      kits: false,
       featured: true,
       description:
         "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
+        "Very limited edition",
+        "Good racing car for fast lane",
+        "high horsepower",
+        "Futuristic Interior design",
+        "Advanced Control and system",
         "Internet",
-        "Comfortable beds"
+        "Comfortable seats and exterior"
       ],
       images: [
         {
@@ -477,25 +479,25 @@ export default [
       id: "9"
     },
     fields: {
-      name: "family economy",
-      slug: "family-economy",
-      type: "family",
-      price: 300,
-      size: 500,
-      capacity: 3,
+      name: "Chevrolet Covertte (2020)",
+      slug: "Covertte",
+      type: "racing",
+      price: 30000,
+      size: 865,
+      capacity: 2,
       pets: false,
       breakfast: false,
+      kits: true,
       featured: false,
       description:
         "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
+        "Covertee is high end racing",
+        "good horsepower performance",
+        "Exterior noise cancellation",
+        "Include advanced repair kits",
         "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "Comfortable seats"
       ],
       images: [
         {
@@ -534,25 +536,25 @@ export default [
       id: "10"
     },
     fields: {
-      name: "family basic",
-      slug: "family-basic",
-      type: "family",
-      price: 350,
-      size: 550,
-      capacity: 4,
+      name: "McLearn P1",
+      slug: "P1",
+      type: "normal fast",
+      price: 35000,
+      size: 920,
+      capacity: 2,
       pets: false,
       breakfast: false,
+      kits: false,
       featured: false,
       description:
         "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
+        "Very fast horsepower",
+        "high end design and tunes",
+        "Surround sound noise cancellation",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds"
+        "Comfortable seats"
       ],
       images: [
         {
@@ -591,25 +593,25 @@ export default [
       id: "11"
     },
     fields: {
-      name: "family standard",
-      slug: "family-standard",
-      type: "family",
-      price: 400,
-      size: 600,
-      capacity: 5,
+      name: "Ford GT",
+      slug: "GT",
+      type: "racing",
+      price: 40000,
+      size: 770,
+      capacity: 2,
       pets: true,
       breakfast: false,
+      kits: true,
       featured: false,
       description:
         "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
+        "Price to performance racing car",
+        "Full-sized modern look",
+        "Have Warranty for racing",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds"
+        "Comfortable seats"
       ],
       images: [
         {
@@ -648,25 +650,25 @@ export default [
       id: "12"
     },
     fields: {
-      name: "family deluxe",
-      slug: "family-deluxe",
-      type: "family",
-      price: 500,
-      size: 700,
-      capacity: 6,
+      name: "Ferrari Enzo",
+      slug: "Enzo",
+      type: "luxury fast",
+      price: 50000,
+      size: 970,
+      capacity: 2,
       pets: true,
       breakfast: true,
+      kits: false,
       featured: true,
       description:
         "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
+        "Neat interior design",
+        "Very Fast car with luxury system",
+        "High end engine",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds"
+        "Advanced tuning system"
       ],
       images: [
         {
@@ -705,26 +707,27 @@ export default [
       id: "13"
     },
     fields: {
-      name: "presidential",
-      slug: "presidential-room",
-      type: "presidential",
-      price: 600,
-      size: 1000,
-      capacity: 10,
+      name: "Porsche 918 Spyder",
+      slug: "918Spyder",
+      type: "luxury fast",
+      price: 60000,
+      size: 770,
+      capacity: 2,
       pets: true,
       breakfast: true,
+      kits: true,
       featured: true,
       description:
         "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
+        "Luxury and fast",
+        "Price to performance sport car",
+        "Futuristic Looks",
+        "include both warranty and repair kits",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds"
       ],
+
       images: [
         {
           fields: {

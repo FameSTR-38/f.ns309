@@ -1,28 +1,28 @@
 import React, { Component } from 'react';
-import {FaCocktail,FaHiking,FaShuttleVan,FaBeer} from 'react-icons/fa';
+import {GiCarWheel,GiHomeGarage,GiRadiations,GiRss} from 'react-icons/gi';
 import Title from './Title';
 
 export default class Services extends Component {
     state={
         services:[
             {
-                icon:<FaCocktail/>,
-                title:"free cocktails",
+                icon:<GiCarWheel/>,
+                title:"free tire",
                 info:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
             },
             {
-                icon:<FaHiking/>,
-                title:"Endless Hiking",
+                icon:<GiHomeGarage/>,
+                title:"test drive",
                 info:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
             },
             {
-                icon:<FaShuttleVan/>,
-                title:"Free shuttle",
+                icon:<GiRadiations/>,
+                title:"more gadgets",
                 info:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
             },
             {
-                icon:<FaBeer/>,
-                title:"Strongest Beer",
+                icon:<GiRss/>,
+                title:"Hotspot and iot system",
                 info:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
             }
         ]

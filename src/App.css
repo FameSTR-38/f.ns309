@@ -20,12 +20,13 @@ body {
   padding-top: 66px;
   color: var(--mainBlack);
   background: var(--mainWhite);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Arial, Helvetica, Verdana, monospace;
   line-height: 1.4;
 }
 h1 {
   font-size: 3em;
   line-height: 1;
+
   margin-bottom: 0.5em;
 }
 h2 {
@@ -88,6 +89,18 @@ h6 {
 }
 /* end of globals */
 /* Navbar */
+.footer {
+  background-color: #96817a;
+}
+.footer-container {
+  padding: 10px;
+  text-align: center;
+}
+.footer-copyright {
+  text-align: center;
+  font-family: Verdana;
+  padding: 15px;
+}
 .navbar {
   position: fixed;
   top: 0;
@@ -101,6 +114,12 @@ h6 {
   display: flex;
   justify-content: space-between;
 }
+.navbar {
+  background: #96817a;
+}
+.nav-ul {
+  padding-top: 20px;
+}
 .nav-btn {
   background: transparent;
   border: none;
@@ -108,14 +127,18 @@ h6 {
   outline: none;
 }
 .nav-icon {
-  font-size: 1.5rem;
+  font-size: 2.8rem;
+  padding: 4px;
   color: var(--primaryColor);
 }
 .nav-links {
-  /* height: 0;
-  overflow: hidden; */
+  height: 0;
+  overflow: hidden;
   transition: var(--mainTransition);
   list-style-type: none;
+  align-self: center;
+  /* padding-left: 16rem;
+  position: fixed; */
 }
 .nav-links a {
   display: block;
@@ -140,9 +163,10 @@ h6 {
     display: none;
   }
   .nav-center {
-    max-width: 1170px;
-    margin: 0 auto;
+    max-width: 1100px;
+    margin: 3px;
     display: flex;
+    padding-top: 1px;
   }
   .nav-links {
     height: auto;
@@ -170,6 +194,7 @@ h6 {
 }
 /* End of Hero */
 /* Banner */
+
 .banner {
   display: inline-block;
   background: rgba(0, 0, 0, 0.5);
@@ -205,6 +230,45 @@ h6 {
     padding: 2rem 6rem;
   }
   .banner h1 {
+    font-size: 4rem;
+  }
+}
+
+.banner2 {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+  color: var(--mainWhite);
+  padding: 2rem 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+}
+.banner2 h1 {
+  font-size: 2.5rem;
+}
+.banner2 div {
+  width: 10rem;
+  height: 5px;
+  background: var(--primaryColor);
+  margin: 1.7rem auto;
+}
+.banner2 p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 576px) {
+  .banner2 {
+    padding: 2rem 3rem;
+  }
+  .banner2 h1 {
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .banner2 {
+    padding: 2rem 6rem;
+  }
+  .banner2 h1 {
     font-size: 4rem;
   }
 }
@@ -499,6 +563,11 @@ h6 {
   font-size: 0.8rem;
   margin-left: 0.5rem;
 }
+#map {
+  height: 400px; /* The height is 400 pixels */
+  width: 60%; /* The width is the width of the web page */
+}
+
 @media screen and (min-width: 776px) {
   .filter-form {
     width: 70vw;

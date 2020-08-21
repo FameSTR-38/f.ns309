@@ -19,7 +19,8 @@ export default class RoomProvider extends Component {
         minSize:0,
         maxSize:0,
         breakfast:false,
-        pets:false
+        pets:false,
+        kits:false
     };
     //getData
     
@@ -90,7 +91,8 @@ handleChange = event => {
       minSize,
       maxSize,
       breakfast,
-      pets
+      pets,
+      kits
     } = this.state;
 
     //all the rooms
@@ -120,6 +122,10 @@ if(breakfast){
 //filter by pets
 if(pets){
     tempRooms = tempRooms.filter(room => room.pets === true);
+}
+//filter by kits
+if(kits){
+    tempRooms = tempRooms.filter(room => room.kits === true);
 }
 //change state
 this.setState({
