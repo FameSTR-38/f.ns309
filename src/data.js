@@ -23,23 +23,23 @@ export default [
     fields: {
       name: "Mercedes Silver Ligtning",
       slug: "SilverLigtning",
-      type: "luxury fast",
-      price: 10000,
-      size: 830,
+      type: "Drag",
+      price: 290,
+      size: 450,
       capacity: 2,
       pets: false,
       breakfast: false,
       kits: true,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+      "Балжинням одоогоор уг машиныг эзэмшиж байна. Одоогоор монголын шилдэг хурдан машинуудын нэг билээ.",
       extras: [
-        "Very Polished Design",
-        "Futuristic visual",
+        "ABS",
+        "Twin turbo",
         "Auto Lights",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable seats"
+        "Аюулгүй байдал",
+    
+        "Тухтай байдал"
       ],
       images: [
         {
@@ -80,8 +80,8 @@ export default [
     fields: {
       name: "lamborghini terzo (2020)",
       slug: "Terzo",
-      type: "luxury fast",
-      price: 15000,
+      type: "Drag",
+      price: 300,
       size: 850,
       capacity: 2,
       pets: false,
@@ -89,14 +89,14 @@ export default [
       kits: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+      "Балжинням одоогоор уг машиныг эзэмшиж байна. Одоогоор монголын шилдэг хурдан машинуудын нэг билээ.",
       extras: [
-        "Futuristic looks and improvements",
-        "Very fast MPH",
+        "Futuristic дизайн",
+        "Very fast KPH",
         "Full Round security system",
-        "Complimentary doors",
-        "Adequate safety/security",
-        "Include both warranty and access control",
+        "Автомат жолоодлого",
+        "Дээд зэргийн аюулгүй байдал",
+        "Хэрэглэгч таних",
       ],
       images: [
         {
@@ -137,23 +137,23 @@ export default [
     fields: {
       name: "Nissan GTR (limited edition)",
       slug: "GTR",
-      type: "normal fast",
-      price: 25000,
-      size: 500,
+      type: "Drag",
+      price: 330,
+      size: 900,
       capacity: 2,
       pets: true,
       breakfast: false,
       kits: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Балжинням одоогоор уг машиныг эзэмшиж байна. Одоогоор монголын шилдэг хурдан машинуудын нэг билээ.",
       extras: [
-        "Good Price to Performance",
-        "Fat Car with Fair Price",
+        "Боломжийн үнэ",
+        "Хурд авалт сайн",
         "Limited Edition",
         "Auto Tuning System",
-        "V8 Engine",
-        "Includes Digital Soundbar System"
+        "V8 Engine"
+      
       ],
       images: [
         {
@@ -194,8 +194,8 @@ export default [
     fields: {
       name: "BMW M-8",
       slug: "M8",
-      type: "normal fast",
-      price: 30000,
+      type: "Уралдаан",
+      price: 280,
       size: 600,
       capacity: 2,
       pets: true,
@@ -203,12 +203,9 @@ export default [
       kits: true,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Балжинням одоогоор уг машиныг эзэмшиж байна. Одоогоор монголын шилдэг хурдан машинуудын нэг билээ.",
       extras: [
-        "Price to performance",
         "M8 being the latest model",
-        "Fine Engine and Looks",
-        "Adequate safety/security",
         "V10 Engine contains",
         "Rare Sport Car"
       ],
@@ -251,8 +248,8 @@ export default [
     fields: {
       name: "lamborghini LP 700",
       slug: "LP700",
-      type: "racing",
-      price: 20000,
+      type: "Уралдаан",
+      price: 330,
       size: 700,
       capacity: 2,
       pets: false,
@@ -260,14 +257,12 @@ export default [
       kits: true,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Балжинням одоогоор уг машиныг эзэмшиж байна. Одоогоор монголын шилдэг хурдан машинуудын нэг билээ.",
       extras: [
-        "Fine looks and structure",
-        "Textures of a good architecture",
         "Good Racing Car",
-        "Adequate safety/security",
-        "fine interior design",
-        "Comfortable seats"
+        "Дээд зэргийн аюулгүй байдал",
+        "Design",
+        "Тухтай"
       ],
       images: [
         {
@@ -308,8 +303,8 @@ export default [
     fields: {
       name: "Aston martin Vantage",
       slug: "Vantage",
-      type: "luxury fast",
-      price: 25000,
+      type: "Уралдаан",
+      price: 250,
       size: 550,
       capacity: 2,
       pets: false,
@@ -317,15 +312,13 @@ export default [
       kits: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Балжинням одоогоор уг машиныг эзэмшиж байна. Одоогоор монголын шилдэг хурдан машинуудын нэг билээ.",
       extras: [
-        "Good price to performance",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "Өндөр өртөгөөр тоноглогдсон",
+        "NOS",
+        "Balanced grip",
+        "Дээд зэргий аюулгүй байдал",
+        
       ],
       images: [
         {
@@ -366,8 +359,8 @@ export default [
     fields: {
       name: "Jaguar F type",
       slug: "FType",
-      type: "normal fast",
-      price: 30000,
+      type: "Drag",
+      price: 340,
       size: 900,
       capacity: 2,
       pets: true,
@@ -375,14 +368,12 @@ export default [
       kits: true,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Балжинням одоогоор уг машиныг эзэмшиж байна. Одоогоор монголын шилдэг хурдан машинуудын нэг билээ.",
       extras: [
-        "Normal fast with fine price",
-        "With 900 hp of a fast car",
-        "Include greate repair kits",
-        "Warranty for accessories",
-        "Internet",
-        "Comfortable seats and interior"
+        "Хурд түгжигч",
+        "Хурданаас хурдан",
+        "Дээд зэргийн аюулгүй байдал",
+        "Тухтай"
       ],
       images: [
         {
@@ -423,8 +414,8 @@ export default [
     fields: {
       name: "lamborghini veneo",
       slug: "veneo",
-      type: "racing",
-      price: 40000,
+      type: "Уралдаан",
+      price: 340,
       size: 1000,
       capacity: 2,
       pets: true,
@@ -432,15 +423,14 @@ export default [
       kits: false,
       featured: true,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Балжинням одоогоор уг машиныг эзэмшиж байна. Одоогоор монголын шилдэг хурдан машинуудын нэг билээ.",
       extras: [
         "Very limited edition",
         "Good racing car for fast lane",
-        "high horsepower",
-        "Futuristic Interior design",
+        "High horsepower",
+        "Futuristic дизайн",
         "Advanced Control and system",
-        "Internet",
-        "Comfortable seats and exterior"
+        "Tухтай"
       ],
       images: [
         {
@@ -481,23 +471,22 @@ export default [
     fields: {
       name: "Chevrolet Covertte (2020)",
       slug: "Covertte",
-      type: "racing",
-      price: 30000,
-      size: 865,
+      type: "Уралдаан",
+      price: 290,
+      size: 790,
       capacity: 2,
       pets: false,
       breakfast: false,
       kits: true,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Балжинням одоогоор уг машиныг эзэмшиж байна. Одоогоор монголын шилдэг хурдан машинуудын нэг билээ.",
       extras: [
         "Covertee is high end racing",
         "good horsepower performance",
-        "Exterior noise cancellation",
-        "Include advanced repair kits",
-        "Adequate safety/security",
-        "Comfortable seats"
+        "Дотоод салон дуу чимээнээс тусгаарлагдана",
+        "Дээд зэргийн аюулгүй байдал",
+        "Тухтай"
       ],
       images: [
         {
@@ -538,23 +527,21 @@ export default [
     fields: {
       name: "McLearn P1",
       slug: "P1",
-      type: "normal fast",
-      price: 35000,
-      size: 920,
+      type: "Уралдаан",
+      price: 230,
+      size: 450,
       capacity: 2,
       pets: false,
       breakfast: false,
       kits: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+      "Балжинням одоогоор уг машиныг эзэмшиж байна. Одоогоор монголын шилдэг хурдан машинуудын нэг билээ.",
       extras: [
         "Very fast horsepower",
         "high end design and tunes",
-        "Surround sound noise cancellation",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable seats"
+        "Дотоод салон дуу чимээнээс тусгаарлана",
+        "Тухтай"
       ],
       images: [
         {
@@ -595,23 +582,19 @@ export default [
     fields: {
       name: "Ford GT",
       slug: "GT",
-      type: "racing",
-      price: 40000,
-      size: 770,
+      type: "Уралдаан",
+      price: 260,
+      size: 700,
       capacity: 2,
       pets: true,
       breakfast: false,
       kits: true,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+      "Балжинням одоогоор уг машиныг эзэмшиж байна. Одоогоор монголын шилдэг хурдан машинуудын нэг билээ.",
       extras: [
         "Price to performance racing car",
         "Full-sized modern look",
-        "Have Warranty for racing",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable seats"
       ],
       images: [
         {
@@ -652,9 +635,9 @@ export default [
     fields: {
       name: "Ferrari Enzo",
       slug: "Enzo",
-      type: "luxury fast",
-      price: 50000,
-      size: 970,
+      type: "Drag",
+      price: 280,
+      size: 600,
       capacity: 2,
       pets: true,
       breakfast: true,
@@ -666,9 +649,7 @@ export default [
         "Neat interior design",
         "Very Fast car with luxury system",
         "High end engine",
-        "Adequate safety/security",
-        "Internet",
-        "Advanced tuning system"
+        "Adequate safety/security"
       ],
       images: [
         {
@@ -709,8 +690,8 @@ export default [
     fields: {
       name: "Porsche 918 Spyder",
       slug: "918Spyder",
-      type: "luxury fast",
-      price: 60000,
+      type: "Drag",
+      price: 320,
       size: 770,
       capacity: 2,
       pets: true,
@@ -718,14 +699,12 @@ export default [
       kits: true,
       featured: true,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+       "Балжинням одоогоор уг машиныг эзэмшиж байна. Одоогоор монголын шилдэг хурдан машинуудын нэг билээ.",
       extras: [
         "Luxury and fast",
         "Price to performance sport car",
-        "Futuristic Looks",
-        "include both warranty and repair kits",
-        "Adequate safety/security",
-        "Internet",
+        "Futuristic дизайн",
+        "Body kit",
       ],
 
       images: [

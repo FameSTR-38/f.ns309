@@ -7,33 +7,33 @@ export default class Services extends Component {
         services:[
             {
                 icon:<GiCarWheel/>,
-                title:"free tire",
-                info:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                title:"Бидний зорилго",
+                info:'Монгол дахь автоспорт болон тамирчдыг алдаршуулах'
             },
             {
                 icon:<GiHomeGarage/>,
-                title:"test drive",
-                info:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                title:"LiveStream",
+                info:'Та гэрээсээ тэмцээн бүрийг алгасалгүй үзэж чадна.'
             },
             {
                 icon:<GiRadiations/>,
-                title:"more gadgets",
-                info:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                title:"Цаашид бид хөгжсөөр байх болно.",
+                info:'Одоогоор бидэнд дөнгөж эхлэлийн үе шат учир цаашид алдаа дутагдал гарах тусам залруулж, илүү хөгжүүлэх болно'
             },
             {
                 icon:<GiRss/>,
-                title:"Hotspot and iot system",
-                info:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                title:"Хаанаас ч хандаж болно.",
+                info:'Та хөдөө орон нутагт, эсвэл гадаад улс оронд байсан ч бид контент бүрийг таньд гацалтгүй дамжуулах болно.'
             }
         ]
     };
     render() {
         return (
         <section className="services">
-        <Title title='services' />
+        <Title title='Бидний давуу тал' />
         <div className="services-center">
             {this.state.services.map((item,index) => {
-                return <article key={index} className="service">
+                return <article key={index} className="Бидний давуу тал">
                    <span>{item.icon}</span>
                    <h6>{item.title}</h6>
                    <p>{item.info}</p>

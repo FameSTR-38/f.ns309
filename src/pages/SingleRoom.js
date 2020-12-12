@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import defaultBcg from "../images/room-1.jpeg";
+import defaultBcg from "../images/hero_1.jpg";
 import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import { Link } from "react-router-dom";
@@ -28,9 +28,9 @@ export default class SingleRoom extends Component {
     if (!room) {
       return (
         <div className="error">
-          <h3>no such car could be found...</h3>
+          <h3>Хайлт илэрцгүй</h3>
           <Link to="/rooms" className="btn-primary">
-            back to cars
+            Буцах
           </Link>
         </div>
       );
@@ -53,7 +53,7 @@ export default class SingleRoom extends Component {
         <StyledHero img={mainImg || this.state.defaultBcg}>
           <Banner title={`${name}`}>
             <Link to="/rooms" className="btn-primary">
-              back to cars
+              Буцах
             </Link>
           </Banner>
         </StyledHero>
@@ -70,19 +70,18 @@ export default class SingleRoom extends Component {
             </article>
             <article className="info">
               <h3>info</h3>
-              <h6>price : £{price}</h6>
+              <h6>Topspeed : KMPH{price}</h6>
               <h6>horsepower : {size}HP</h6>
               <h6>
                 max person : {""}
                 {capacity > 1 ? `${capacity} people` : `${capacity} person`}
               </h6>
-              <h6>{pets ? "warranty included" : "no warranty included"}</h6>
-              <h6>{breakfast && "Remote Access Control Included"}</h6>
+              
             </article>
           </div>
         </section>
         <section className="room-extras">
-          <h6>extras</h6>
+          <h6>Давуу талууд</h6>
           <ul className="extras">
             {extras.map((item, index) => {
               return <li key={index}>- {item}</li>;

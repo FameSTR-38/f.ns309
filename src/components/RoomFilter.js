@@ -45,11 +45,11 @@ export default function RoomFilter({ rooms }) {
 
   return (
     <section className="filter-container">
-      <Title title="search cars" />
+      <Title title="Бүртгэлтэй машинууд" />
       <form className="filter-form">
         {/* select type*/}
         <div className="form-group">
-          <label htmlFor="type">car type</label>
+          <label htmlFor="type">Спортын төрөл</label>
           <select
             name="type"
             id="type"
@@ -63,7 +63,7 @@ export default function RoomFilter({ rooms }) {
         {/* end select type*/}
         {/* room price */}
         <div className="form-group">
-          <label htmlFor="price">car price £{price}</label>
+          <label htmlFor="price">Хурд {price}</label>
           <input
             type="range"
             name="price"
@@ -102,33 +102,10 @@ export default function RoomFilter({ rooms }) {
               checked={breakfast}
               onChange={handleChange}
             />
-            <label htmlFor="breakfast">Warranty</label>
+            <label htmlFor="breakfast">Клубд харъяалалтай</label>
           </div>
         </div>
-        <div className="form-group">
-          <div className="single-extra">
-            <input
-              type="checkbox"
-              name="pets"
-              id="pets"
-              checked={pets}
-              onChange={handleChange}
-            />
-            <label htmlFor="pets">Remote Access</label>
-          </div>
-        </div>
-        <div className="form-group">
-          <div className="single-extra">
-            <input
-              type="checkbox"
-              name="kits"
-              id="kits"
-              checked={kits}
-              onChange={handleChange}
-            />
-            <label htmlFor="kits">Free Repair kits</label>
-          </div>
-        </div>
+       
         {/* end of extras */}
       </form>
     </section>

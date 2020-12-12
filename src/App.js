@@ -4,10 +4,11 @@ import "./App.css";
 import Home from "./pages/Home";
 import Rooms from "./pages/Rooms";
 import SingleRoom from "./pages/SingleRoom";
-import Privacy from "./pages/Privacy";
+//import Privacy from "./pages/Privacy";
 import About from "./pages/About";
 import Location from "./pages/Location";
 import Error from "./pages/Error";
+import Login from  "./pages/Login";
 
 import { Route, Switch } from "react-router-dom";
 
@@ -22,9 +23,10 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/rooms/" component={Rooms} />
-        <Route exact path="/privacy/" component={Privacy} />
+       
         <Route exact path="/location/" component={Location} />
         <Route exact path="/about/" component={About} />
+        <Route exact path="/login" component={Login}/>
         <Route exact path="/rooms/:slug" component={SingleRoom} />
         <Route component={Error} />
       </Switch>

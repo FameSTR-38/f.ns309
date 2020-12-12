@@ -5,7 +5,7 @@ export default function RoomList({rooms}) {
 if(rooms.length === 0){
     return (
         <div className="emptySearch">
-            <center><h3>No cars available for your search</h3></center>
+            <center><h3>Таны хайсан хайлт илэрцгүй</h3></center>
         </div>
     )
 

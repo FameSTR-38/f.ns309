@@ -6,15 +6,16 @@ import Services from "../components/Services";
 import FeaturedRooms from "../components/FeaturedRooms";
 
 export default function Home() {
+  
   return (
     <>
       <Hero>
         <Banner
-          title="luxurious cars"
-          subtitle="deluxe cars starting at $20000"
+          title="LiveStream"
+          subtitle="Такс: 20000 /1сар/"
         >
           <Link to="/rooms" className="btn-primary">
-            our cars
+            Үзэх
           </Link>
         </Banner>
       </Hero>

@@ -30,19 +30,19 @@ export default class Navbar extends Component {
             className={this.state.isOpen ? "nav-links show-nav" : "nav-links"}
           >
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/">Үндсэн цонх</Link>
             </li>
             <li>
-              <Link to="/rooms">Cars</Link>
+              <Link to="/rooms">Мэдээ</Link>
             </li>
             <li>
-              <Link to="/privacy">Privacy</Link>
+              <Link to="/location">Байршил</Link>
             </li>
             <li>
-              <Link to="/location">Location</Link>
+              <Link to="/about">Бидний тухай</Link>
             </li>
             <li>
-              <Link to="/about">About Us</Link>
+              <Link to="/login"> Нэвтрэх цонх </Link>
             </li>
           </ul>
         </div>

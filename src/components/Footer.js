@@ -34,7 +34,7 @@ const FooterPage = () => {
       <div className="footer-copyright">
         <MDBContainer fluid>
           &copy; {new Date().getFullYear()} Copyright:{" "}
-          <a href="http://localhost:3000/"> Localhost3000.com </a>
+          <a href="http://localhost:3000/"> baljka</a>
         </MDBContainer>
       </div>
     </MDBFooter>

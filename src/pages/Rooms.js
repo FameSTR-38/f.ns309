@@ -8,9 +8,9 @@ const Rooms = () =>  {
     return ( 
         <>
         <Hero hero="roomsHero">
-            <Banner title="Home Garage">
+            <Banner title="Live Stream">
             <Link to='/' className="btn-primary">
-            return home
+            Буцах
             </Link>
             </Banner>
         </Hero>
