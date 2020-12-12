@@ -8,7 +8,7 @@ const Rooms = () =>  {
     return ( 
         <>
         <Hero hero="roomsHero">
-            <Banner title="Live Stream">
+            <Banner title="Одоогоор шууд дамжуулалт байхгүй байна">
             <Link to='/' className="btn-primary">
             Буцах
             </Link>

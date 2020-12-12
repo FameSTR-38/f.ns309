@@ -42,7 +42,7 @@ export default class Navbar extends Component {
               <Link to="/about">Бидний тухай</Link>
             </li>
             <li>
-              <Link to="/login"> Нэвтрэх цонх </Link>
+              <Link to="facebook"> Нэвтрэх цонх </Link>
             </li>
           </ul>
         </div>

@@ -1,19 +1,19 @@
-import room1 from "./images/details-1.jpeg";
-import room2 from "./images/details-2.jpeg";
-import room3 from "./images/details-3.jpeg";
-import room4 from "./images/details-4.jpeg";
-import img1 from "./images/room-1.jpeg";
-import img2 from "./images/room-2.jpeg";
-import img3 from "./images/room-3.jpeg";
-import img4 from "./images/room-4.jpeg";
-import img5 from "./images/room-5.jpeg";
-import img6 from "./images/room-6.jpeg";
-import img7 from "./images/room-7.jpeg";
-import img8 from "./images/room-8.jpeg";
-import img9 from "./images/room-9.jpeg";
+import room1 from "./images/ferrari.png";
+import room2 from "./images/hero_2.jpg";
+import room3 from "./images/rim.jpg";
+import room4 from "./images/post_1.jpg";
+import img1 from "./images/rx8.jpg";
+import img2 from "./images/mashin_3.jpg";
+import img3 from "./images/gtr35.jpg";
+import img4 from "./images/gt86.png";
+import img5 from "./images/s15.png";
+import img6 from "./images/gtr32.png";
+import img7 from "./images/gtr34.png";
+import img8 from "./images/porsche.png";
+import img9 from "./images/ferrari.png";
 import img10 from "./images/room-10.jpeg";
 import img11 from "./images/room-11.jpeg";
-import img12 from "./images/room-12.jpeg";
+import img12 from "./images/gtr35-2.png";
 
 export default [
   {
@@ -21,24 +21,23 @@ export default [
       id: "1"
     },
     fields: {
-      name: "Mercedes Silver Ligtning",
-      slug: "SilverLigtning",
-      type: "Drag",
-      price: 290,
+      name: "Mazda RX-8 Coupe",
+      slug: "RX-8 MoonWhite",
+      type: "Уралдаан",
+      price: 260,
       size: 450,
       capacity: 2,
-      pets: false,
+      pets: true,
       breakfast: false,
       kits: true,
       featured: false,
       description:
-      "Балжинням одоогоор уг машиныг эзэмшиж байна. Одоогоор монголын шилдэг хурдан машинуудын нэг билээ.",
+      "Одоогоос 15 жилийн тэртээ RX-8-ийг автосалонд хараад дурласан юм. Тухайн үедээ зээлээр Mazda 6 загвар 750 мянгаар авч байлаа. Харин ротор хөдөлгүүрийн гайхамшиг нэг сая нэг зуун мянга давсан болохоор мөрөөдөөд өнгөрсөн. Энэ машины үйлдвэрлэл 2012 онд зогссон. АНУ-аас 17-18 мянган долларт багтаагаад авч болдог ч машины гүйлт нь сэжигтэй. Ийм учраас мандах нарны орны аукционоос захиалж авсан машинаа Владивосток орж өөрийн биеэр унаж Тюменьд авчирсан юм.",
       extras: [
         "ABS",
         "Twin turbo",
         "Auto Lights",
-        "Аюулгүй байдал",
-    
+        "Дээд зэргийн аюулгүй байдал",
         "Тухтай байдал"
       ],
       images: [
@@ -78,25 +77,21 @@ export default [
       id: "2"
     },
     fields: {
-      name: "lamborghini terzo (2020)",
-      slug: "Terzo",
-      type: "Drag",
-      price: 300,
-      size: 850,
+      name: "Nissan Silvia S14",
+      slug: "240sx",
+      type: "Drift",
+      price: 210,
+      size: 750,
       capacity: 2,
       pets: false,
-      breakfast: false,
+      breakfast: true,
       kits: false,
       featured: false,
       description:
-      "Балжинням одоогоор уг машиныг эзэмшиж байна. Одоогоор монголын шилдэг хурдан машинуудын нэг билээ.",
+      "Уг автомашин нь 2016 оны Drift Circuit тэмцээнд оролцож шилдэг гуравт шалгарсан түүхтэй.",
       extras: [
         "Futuristic дизайн",
-        "Very fast KPH",
-        "Full Round security system",
-        "Автомат жолоодлого",
-        "Дээд зэргийн аюулгүй байдал",
-        "Хэрэглэгч таних",
+        "Angle Kit"
       ],
       images: [
         {
@@ -135,23 +130,22 @@ export default [
       id: "3"
     },
     fields: {
-      name: "Nissan GTR (limited edition)",
-      slug: "GTR",
+      name: "Nissan GTR",
+      slug: "Godzilla",
       type: "Drag",
       price: 330,
-      size: 900,
+      size: 1000,
       capacity: 2,
       pets: true,
       breakfast: false,
       kits: false,
       featured: false,
       description:
-        "Балжинням одоогоор уг машиныг эзэмшиж байна. Одоогоор монголын шилдэг хурдан машинуудын нэг билээ.",
+        "Монголын хамгийн хурдан машин.",
       extras: [
-        "Боломжийн үнэ",
-        "Хурд авалт сайн",
-        "Limited Edition",
-        "Auto Tuning System",
+        "Хурд авалт",
+        "Europe tunnig system",
+        "Japanese Tuning System",
         "V8 Engine"
       
       ],
@@ -192,18 +186,18 @@ export default [
       id: "4"
     },
     fields: {
-      name: "BMW M-8",
-      slug: "M8",
+      name: "Toyota GT-86 2013",
+      slug: "GT86",
       type: "Уралдаан",
-      price: 280,
-      size: 600,
+      price: 210,
+      size: 450,
       capacity: 2,
       pets: true,
       breakfast: true,
       kits: true,
       featured: false,
       description:
-        "Балжинням одоогоор уг машиныг эзэмшиж байна. Одоогоор монголын шилдэг хурдан машинуудын нэг билээ.",
+        "Эцэст нь машинаараа Москвагаас 1,500 км туулж харихаар гарлаа. Бичих аргагүй сайхан мэдрэмж! Машин зам дээр наалттай аятай л давхих юм. Круизийг нь 147 км/цагаар тохирууллаа. Клиренс нь 12 см, гэхдээ л энэ хол замд төмөр замын гарман дээр хүртэл элгээрээ ганц удаа ч шүргээгүй. Тулавч хатуу болохоор ганхах савлах нь үнэмлэхүй бага. Энэ машины чадаад байгаа маневрыг минийх шиг машинаар хийх гэвэл аймаар. Ялангуяа тоормос нь миний Lexus-тэй харьцуулах юм бол 5+. Харин хурд авах чадвар тийм ч гоц биш, 100 км/цаг хурдыг 8.2 секундэд авна. Хурдны хайрцаг нь 5.0 литрийн Lexus ISF-ийнх, маш реакцтай. Спорт горимдоо хөдөлгүүрийн эргэлт 4000-гаас доош буухгүй, машин маш омголон болчихно.",
       extras: [
         "M8 being the latest model",
         "V10 Engine contains",
@@ -246,23 +240,23 @@ export default [
       id: "5"
     },
     fields: {
-      name: "lamborghini LP 700",
-      slug: "LP700",
-      type: "Уралдаан",
+      name: "Nissan Silvia S15",
+      slug: "240sx",
+      type: "Drift",
       price: 330,
       size: 700,
       capacity: 2,
       pets: false,
-      breakfast: false,
+      breakfast: true,
       kits: true,
       featured: false,
       description:
-        "Балжинням одоогоор уг машиныг эзэмшиж байна. Одоогоор монголын шилдэг хурдан машинуудын нэг билээ.",
+        "Тамирчан Шинээ @shineetrial-н авто хүлэг",
       extras: [
-        "Good Racing Car",
-        "Дээд зэргийн аюулгүй байдал",
+        "1jzgte",
+        "Stanced",
         "Design",
-        "Тухтай"
+        "Хурд авалт"
       ],
       images: [
         {
@@ -301,9 +295,9 @@ export default [
       id: "6"
     },
     fields: {
-      name: "Aston martin Vantage",
-      slug: "Vantage",
-      type: "Уралдаан",
+      name: "Nissan GTR-32",
+      slug: "Godzilla",
+      type: "Drag",
       price: 250,
       size: 550,
       capacity: 2,
@@ -312,9 +306,9 @@ export default [
       kits: false,
       featured: false,
       description:
-        "Балжинням одоогоор уг машиныг эзэмшиж байна. Одоогоор монголын шилдэг хурдан машинуудын нэг билээ.",
+        "Эзэмшигч тодорхойгүй",
       extras: [
-        "Өндөр өртөгөөр тоноглогдсон",
+        "NISMO тоног",
         "NOS",
         "Balanced grip",
         "Дээд зэргий аюулгүй байдал",
@@ -357,23 +351,22 @@ export default [
       id: "7"
     },
     fields: {
-      name: "Jaguar F type",
-      slug: "FType",
+      name: "Nissan GTR-34",
+      slug: "Godzilla",
       type: "Drag",
-      price: 340,
-      size: 900,
+      price: 300,
+      size: 850,
       capacity: 2,
       pets: true,
       breakfast: false,
       kits: true,
       featured: false,
       description:
-        "Балжинням одоогоор уг машиныг эзэмшиж байна. Одоогоор монголын шилдэг хурдан машинуудын нэг билээ.",
+        "Эзэмшигч тодорхойгүй",
       extras: [
         "Хурд түгжигч",
-        "Хурданаас хурдан",
-        "Дээд зэргийн аюулгүй байдал",
-        "Тухтай"
+        "NISMO тоног",
+        "Тухтай байдал"
       ],
       images: [
         {
@@ -412,25 +405,23 @@ export default [
       id: "8"
     },
     fields: {
-      name: "lamborghini veneo",
-      slug: "veneo",
+      name: "Porsche Macan 2015",
+      slug: "Macan",
       type: "Уралдаан",
-      price: 340,
-      size: 1000,
+      price: 280,
+      size: 650,
       capacity: 2,
       pets: true,
       breakfast: true,
       kits: false,
       featured: true,
       description:
-        "Балжинням одоогоор уг машиныг эзэмшиж байна. Одоогоор монголын шилдэг хурдан машинуудын нэг билээ.",
+        "Дөрвөн жил Cayenne унасны эцэст дахиад Porsche авахаар шийдлээ. Нэгдүгээр сард захиалсан Macan-аа зургадугаар сард хүлээж авсан. Cayenne-ээс Macan-д шилжих нь олон хүнд сонин байна.",
       extras: [
-        "Very limited edition",
-        "Good racing car for fast lane",
+        "Bose хөгжим",
+        "Урд хойд гупэр бат бөх",
         "High horsepower",
-        "Futuristic дизайн",
-        "Advanced Control and system",
-        "Tухтай"
+        "Futuristic дизайн"
       ],
       images: [
         {
@@ -464,192 +455,29 @@ export default [
       ]
     }
   },
-  {
-    sys: {
-      id: "9"
-    },
-    fields: {
-      name: "Chevrolet Covertte (2020)",
-      slug: "Covertte",
-      type: "Уралдаан",
-      price: 290,
-      size: 790,
-      capacity: 2,
-      pets: false,
-      breakfast: false,
-      kits: true,
-      featured: false,
-      description:
-        "Балжинням одоогоор уг машиныг эзэмшиж байна. Одоогоор монголын шилдэг хурдан машинуудын нэг билээ.",
-      extras: [
-        "Covertee is high end racing",
-        "good horsepower performance",
-        "Дотоод салон дуу чимээнээс тусгаарлагдана",
-        "Дээд зэргийн аюулгүй байдал",
-        "Тухтай"
-      ],
-      images: [
-        {
-          fields: {
-            file: {
-              url: img9
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: room2
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: room3
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: room4
-            }
-          }
-        }
-      ]
-    }
-  },
-  {
-    sys: {
-      id: "10"
-    },
-    fields: {
-      name: "McLearn P1",
-      slug: "P1",
-      type: "Уралдаан",
-      price: 230,
-      size: 450,
-      capacity: 2,
-      pets: false,
-      breakfast: false,
-      kits: false,
-      featured: false,
-      description:
-      "Балжинням одоогоор уг машиныг эзэмшиж байна. Одоогоор монголын шилдэг хурдан машинуудын нэг билээ.",
-      extras: [
-        "Very fast horsepower",
-        "high end design and tunes",
-        "Дотоод салон дуу чимээнээс тусгаарлана",
-        "Тухтай"
-      ],
-      images: [
-        {
-          fields: {
-            file: {
-              url: img10
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: room2
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: room3
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: room4
-            }
-          }
-        }
-      ]
-    }
-  },
-  {
-    sys: {
-      id: "11"
-    },
-    fields: {
-      name: "Ford GT",
-      slug: "GT",
-      type: "Уралдаан",
-      price: 260,
-      size: 700,
-      capacity: 2,
-      pets: true,
-      breakfast: false,
-      kits: true,
-      featured: false,
-      description:
-      "Балжинням одоогоор уг машиныг эзэмшиж байна. Одоогоор монголын шилдэг хурдан машинуудын нэг билээ.",
-      extras: [
-        "Price to performance racing car",
-        "Full-sized modern look",
-      ],
-      images: [
-        {
-          fields: {
-            file: {
-              url: img11
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: room2
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: room3
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: room4
-            }
-          }
-        }
-      ]
-    }
-  },
+  
   {
     sys: {
       id: "12"
     },
     fields: {
-      name: "Ferrari Enzo",
-      slug: "Enzo",
-      type: "Drag",
+      name: "Nissan GTR-35",
+      slug: "Godzilla",
+      type: "Уралдаан",
       price: 280,
-      size: 600,
+      size: 480,
       capacity: 2,
       pets: true,
       breakfast: true,
       kits: false,
       featured: true,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Гурван долоо хоногийн өмнө 540 морины хүчтэй, 2012 оны Nissan GT-R худалдаж авсан юм. Энэ хооронд 2,000 км туулчихлаа, одоо машиндаа техник үйлчилгээ хийлгэж хүлээх зуураа үүнийг бичиж сууна. Бараг л хүн болгон асуудаг: “Хэр давхидаг машин бэ?” гэсэн асуултад эхлээд хариулья. Ямар ч байсан замаар давхилдаж байгаа энэ олон сток тоногтой машинууд дотроос зөвхөн Porsche 911 Turbo S л үүнтэй хүч үзнэ. Гэхдээ Porsche-гийн турботой хөлөг Nissan GT-R-аас хоёр дахин үнэтэйг бодоод үзээрэй. Харин ардаа M ч юм уу XXX төгсгөлтэй бусад олон машин, Audi RS зэрэг нь энэ тэрэгний тоосон дунд л үлдэнэ.",
       extras: [
-        "Neat interior design",
-        "Very Fast car with luxury system",
-        "High end engine",
-        "Adequate safety/security"
+        "Дизайн",
+        "Хурд авалт",
+        "Дуу тусгаарлалт",
+        "Тохь тух"
       ],
       images: [
         {
@@ -688,23 +516,22 @@ export default [
       id: "13"
     },
     fields: {
-      name: "Porsche 918 Spyder",
-      slug: "918Spyder",
-      type: "Drag",
-      price: 320,
-      size: 770,
+      name: "Ferrari F40",
+      slug: "F40",
+      type: "Уралдаан",
+      price: 340,
+      size: 750,
       capacity: 2,
       pets: true,
       breakfast: true,
       kits: true,
       featured: true,
       description:
-       "Балжинням одоогоор уг машиныг эзэмшиж байна. Одоогоор монголын шилдэг хурдан машинуудын нэг билээ.",
+       "Ferrari-н эксперт У. Баянмөнхын тойм, 1992 онд Японы дилерийн компанийн эзэн хурдны зам дээр хамгийн дээд хурдаараа хүрч байгаа бичлэгийг далд цагдаа нарт зарж баривчлах гэж байгаад л машиныхаа чадавхийг нотолж байсан нэр хүндгүй явдлаар F40 онгоцыг хамгийн өндөр хурдтай гэдгээ олон нийтэд нотолсон юм. . Тэр үед аль хэдийн арван мянган видео зарагдсан байна.",
       extras: [
         "Luxury and fast",
-        "Price to performance sport car",
-        "Futuristic дизайн",
-        "Body kit",
+        "Өндөр өртөгтэй спорт машин",
+        "Хязраатай бүтээгдсэн",
       ],
 
       images: [

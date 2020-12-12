@@ -63,7 +63,7 @@ export default function RoomFilter({ rooms }) {
         {/* end select type*/}
         {/* room price */}
         <div className="form-group">
-          <label htmlFor="price">Хурд {price}</label>
+          <label htmlFor="price"> Дээд хурдны амжилт {price}</label>
           <input
             type="range"
             name="price"

@@ -12,7 +12,7 @@ export default function Home() {
       <Hero>
         <Banner
           title="LiveStream"
-          subtitle="Такс: 20000 /1сар/"
+          subtitle="Тэмцээн шууд дамжуулалт"
         >
           <Link to="/rooms" className="btn-primary">
             Үзэх
