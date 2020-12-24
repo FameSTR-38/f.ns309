@@ -16,7 +16,7 @@ export default class Navbar extends Component {
         <div className="nav-center">
           <div className="nav-header">
             <Link to="/">
-              <img src={logo} alt="Sport Cars" />
+              <img src={logo} alt="MASC" />
             </Link>
             <button
               type="button"
